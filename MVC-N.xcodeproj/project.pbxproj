@@ -18,6 +18,7 @@
 		F330B82829BB9D840031359B /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F330B82729BB9D840031359B /* NetworkService.swift */; };
 		F330B82B29BBA41C0031359B /* CommentNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F330B82A29BBA41C0031359B /* CommentNetworkService.swift */; };
 		F330B82D29BBA6AA0031359B /* GetCommentResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F330B82C29BBA6AA0031359B /* GetCommentResponse.swift */; };
+		F35624B429BF77AA0038E7D7 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35624B329BF77AA0038E7D7 /* NetworkError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		F330B82729BB9D840031359B /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		F330B82A29BBA41C0031359B /* CommentNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentNetworkService.swift; sourceTree = "<group>"; };
 		F330B82C29BBA6AA0031359B /* GetCommentResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCommentResponse.swift; sourceTree = "<group>"; };
+		F35624B329BF77AA0038E7D7 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 		F330B81929B99FB20031359B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F35624B329BF77AA0038E7D7 /* NetworkError.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -139,8 +142,8 @@
 		F330B82029B9A0930031359B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F35624B229BF76E90038E7D7 /* Responses */,
 				F330B82429BAE82C0031359B /* Comment.swift */,
-				F330B82C29BBA6AA0031359B /* GetCommentResponse.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -168,6 +171,14 @@
 				F330B82A29BBA41C0031359B /* CommentNetworkService.swift */,
 			);
 			path = CommentNetworkService;
+			sourceTree = "<group>";
+		};
+		F35624B229BF76E90038E7D7 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				F330B82C29BBA6AA0031359B /* GetCommentResponse.swift */,
+			);
+			path = Responses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +258,7 @@
 				F330B80829B99F9C0031359B /* SceneDelegate.swift in Sources */,
 				F330B82829BB9D840031359B /* NetworkService.swift in Sources */,
 				F330B82D29BBA6AA0031359B /* GetCommentResponse.swift in Sources */,
+				F35624B429BF77AA0038E7D7 /* NetworkError.swift in Sources */,
 				F330B82329BAE72D0031359B /* CommentCell.swift in Sources */,
 				F330B82B29BBA41C0031359B /* CommentNetworkService.swift in Sources */,
 			);
